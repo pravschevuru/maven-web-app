@@ -3,10 +3,10 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.mycompany.applicationname</groupId>
-    <artifactId>application-mvc</artifactId>
+    <artifactId>maven-web-application</artifactId>
     <packaging>war</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Maven Application Webapp</name>
+    <name>maven-web-application</name>
     <url>http://maven.apache.org</url>
 
     <properties>
