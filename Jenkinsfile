@@ -6,4 +6,7 @@ node{
     stage("maven build"){
         sh "${mavenHome}/bin/mvn clean package"
     }
+    stage("Generate SonarQube Report"){
+        sh "${mavenHome}/bin/mvn sonar:sonar"
+    }
 }
